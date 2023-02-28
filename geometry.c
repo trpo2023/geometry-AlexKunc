@@ -83,7 +83,7 @@ int main(int argc, char **argv)
 {
 setlocale(LC_ALL, " ");
 FILE *file;
-file = fopen("enter.txt", "r");
+file = fopen("vod.txt", "r");
 char str[100];
 fgets(str, 99, file);
 if (isObject(str))
