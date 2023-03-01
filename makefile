@@ -1,4 +1,4 @@
-all: main geometry 
+all: geometry
 
 make: main.c
 	gcc -o -Wall - Werror main main.c
@@ -10,12 +10,13 @@ run:
 	./main
 	
 run_g:
-	./geometry
-	
+	./geometry vod.txt
 clear: 
 	rm main
 	
 clear_g:
 	rm geometry 
+		
+
 	
 
